@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<!-- saved from url=(0059)https://class.coursera.org/matrix-001/wiki/view?page=errata -->
+<html lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title>Wiki - Errata | Coding the Matrix: Linear Algebra through Computer Science Applications</title>
+<link rel="stylesheet" href="https://dt5zaw6a98blc.cloudfront.net/site-static/bf743acfd7f84faa20aa6de98b3a60aa1f7de08a/css/spark.main.css">
+<link rel="stylesheet" href="https://www.coursera.org/maestro/api/course/970260/course.css">
+<link rel="icon" href="https://spark-public.s3.amazonaws.com/matrix/static/images/favicon.ico">
+<script type="text/javascript" src="./Wiki - Errata   Coding the Matrix  Linear Algebra through Computer Science Applications_files/MathJax.js"></script><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Hover_Arrow {position: absolute; width: 15px; height: 11px; cursor: pointer}
+</style><style type="text/css">.MathJax_Display {text-align: center; margin: 1em 0em; position: relative; display: block; width: 100%}
+.MathJax .merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+#MathJax_Tooltip {background-color: InfoBackground; color: InfoText; border: 1px solid black; box-shadow: 2px 2px 5px #AAAAAA; -webkit-box-shadow: 2px 2px 5px #AAAAAA; -moz-box-shadow: 2px 2px 5px #AAAAAA; -khtml-box-shadow: 2px 2px 5px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true'); padding: 3px 4px; position: absolute; left: 0; top: 0; width: auto; height: auto; display: none}
+.MathJax {display: inline; font-style: normal; font-weight: normal; line-height: normal; font-size: 100%; font-size-adjust: none; text-indent: 0; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; border: 0; padding: 0; margin: 0}
+.MathJax img, .MathJax nobr, .MathJax a {border: 0; padding: 0; margin: 0; max-width: none; max-height: none; vertical-align: 0; line-height: normal; text-decoration: none}
+img.MathJax_strut {border: 0 !important; padding: 0 !important; margin: 0 !important; vertical-align: 0 !important}
+.MathJax span {display: inline; position: static; border: 0; padding: 0; margin: 0; vertical-align: 0; line-height: normal; text-decoration: none}
+.MathJax nobr {white-space: nowrap ! important}
+.MathJax img {display: inline ! important; float: none ! important}
+.MathJax_Processing {visibility: hidden; position: fixed; width: 0; height: 0; overflow: hidden}
+.MathJax_Processed {display: none!important}
+.MathJax_ExBox {display: block; overflow: hidden; width: 1px; height: 60ex}
+.MathJax .MathJax_EmBox {display: block; overflow: hidden; width: 1px; height: 60em}
+.MathJax .MathJax_HitBox {cursor: text; background: white; opacity: 0; filter: alpha(opacity=0)}
+.MathJax .MathJax_HitBox * {filter: none; opacity: 1; background: transparent}
+#MathJax_Tooltip * {filter: none; opacity: 1; background: transparent}
+@font-face {font-family: MathJax_Main; src: url('https://duqnjvq4jwr55.cloudfront.net/2.1/fonts/HTML-CSS/TeX/woff/MathJax_Main-Regular.woff') format('woff'), url('https://duqnjvq4jwr55.cloudfront.net/2.1/fonts/HTML-CSS/TeX/otf/MathJax_Main-Regular.otf') format('opentype')}
+@font-face {font-family: MathJax_Main; src: url('https://duqnjvq4jwr55.cloudfront.net/2.1/fonts/HTML-CSS/TeX/woff/MathJax_Main-Bold.woff') format('woff'), url('https://duqnjvq4jwr55.cloudfront.net/2.1/fonts/HTML-CSS/TeX/otf/MathJax_Main-Bold.otf') format('opentype'); font-weight: bold}
+@font-face {font-family: MathJax_Main; src: url('https://duqnjvq4jwr55.cloudfront.net/2.1/fonts/HTML-CSS/TeX/woff/MathJax_Main-Italic.woff') format('woff'), url('https://duqnjvq4jwr55.cloudfront.net/2.1/fonts/HTML-CSS/TeX/otf/MathJax_Main-Italic.otf') format('opentype'); font-style: italic}
+@font-face {font-family: MathJax_Math; src: url('https://duqnjvq4jwr55.cloudfront.net/2.1/fonts/HTML-CSS/TeX/woff/MathJax_Math-Italic.woff') format('woff'), url('https://duqnjvq4jwr55.cloudfront.net/2.1/fonts/HTML-CSS/TeX/otf/MathJax_Math-Italic.otf') format('opentype'); font-style: italic}
+@font-face {font-family: MathJax_Caligraphic; src: url('https://duqnjvq4jwr55.cloudfront.net/2.1/fonts/HTML-CSS/TeX/woff/MathJax_Caligraphic-Regular.woff') format('woff'), url('https://duqnjvq4jwr55.cloudfront.net/2.1/fonts/HTML-CSS/TeX/otf/MathJax_Caligraphic-Regular.otf') format('opentype')}
+@font-face {font-family: MathJax_Size1; src: url('https://duqnjvq4jwr55.cloudfront.net/2.1/fonts/HTML-CSS/TeX/woff/MathJax_Size1-Regular.woff') format('woff'), url('https://duqnjvq4jwr55.cloudfront.net/2.1/fonts/HTML-CSS/TeX/otf/MathJax_Size1-Regular.otf') format('opentype')}
+@font-face {font-family: MathJax_Size2; src: url('https://duqnjvq4jwr55.cloudfront.net/2.1/fonts/HTML-CSS/TeX/woff/MathJax_Size2-Regular.woff') format('woff'), url('https://duqnjvq4jwr55.cloudfront.net/2.1/fonts/HTML-CSS/TeX/otf/MathJax_Size2-Regular.otf') format('opentype')}
+@font-face {font-family: MathJax_Size3; src: url('https://duqnjvq4jwr55.cloudfront.net/2.1/fonts/HTML-CSS/TeX/woff/MathJax_Size3-Regular.woff') format('woff'), url('https://duqnjvq4jwr55.cloudfront.net/2.1/fonts/HTML-CSS/TeX/otf/MathJax_Size3-Regular.otf') format('opentype')}
+@font-face {font-family: MathJax_Size4; src: url('https://duqnjvq4jwr55.cloudfront.net/2.1/fonts/HTML-CSS/TeX/woff/MathJax_Size4-Regular.woff') format('woff'), url('https://duqnjvq4jwr55.cloudfront.net/2.1/fonts/HTML-CSS/TeX/otf/MathJax_Size4-Regular.otf') format('opentype')}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 2px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 2px 2em; background: transparent}
+.MathJax_MenuTitle {background-color: #CCCCCC; margin: -1px -1px 1px -1px; text-align: center; font-style: italic; font-size: 80%; color: #444444; padding: 2px 0; overflow: hidden}
+.MathJax_MenuArrow {position: absolute; right: .5em; color: #666666}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuRadioCheck {position: absolute; left: 1em}
+.MathJax_MenuLabel {padding: 2px 2em 4px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #CCCCCC; margin: 4px 1px 0px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: Highlight; color: HighlightText}
+.MathJax_Menu_Close {position: absolute; width: 31px; height: 31px; top: -15px; left: -15px}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style></head>
+
+<body><div style="visibility: hidden; overflow: hidden; position: absolute; top: 0px; height: 1px; width: auto; padding: 0px; border: 0px; margin: 0px; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal;"><div id="MathJax_Hidden"></div></div><div id="MathJax_Message" style="display: none;"></div>
+    <a href="https://class.coursera.org/matrix-001/wiki/view?page=errata#course-page-content" class="hidden">Skip Navigation</a>
+    <div class="hidden">
+        This page features MathJax technology to render mathematical formulae.
+        If you are using a screen reader, please visit <a href="http://www.dessci.com/en/products/mathplayer/">MathPlayer</a> to download the plugin for your browser. Please note that this is an Internet Explorer-only plugin at this time.
+    </div>
+
+    <h1 class="hidden">Coding the Matrix: Linear Algebra through Computer Science Applications</h1>
+
+    
+
+<div class="course-topbar container-fluid" role="banner">
+
+    <div class="row-fluid">
+
+        <div class="span3">
+          <a href="https://www.coursera.org/" class="course-topbar-logo" data-if-linkable="add-referrer"></a>
+        </div>
+
+        <div class="course-topbar-nav-container span9" style="float:right;">
+            <h2 class="hidden">Top Navigation Bar</h2>
+
+            <ul class="course-topbar-nav-list">
+                <li class="course-topbar-nav-list-item">
+                  <a href="https://www.coursera.org/courses" data-if-linkable="add-referrer">Courses</a>
+                </li>
+
+                
+                <li class="course-topbar-nav-list-item" tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-topbar-my" data-popup="#course-topbar-my" data-popup-bind-open="mouseenter" data-popup-close="" style="cursor:pointer;" data-popup-direction="se">
+                                        <a data-user-id="3341979">
+                        Rohin Bhargava                        <i class="icon-caret-down"></i>
+                    </a>
+                </li>
+
+                            </ul>
+        </div>
+    </div>
+
+    <div id="course-topbar-aboutus" class="course-topbar-sublist">
+        <a class="course-topbar-sublist-item" href="https://www.coursera.org/about/jobs" target="_new" data-if-linkable="add-referrer">Jobs</a>
+        <a class="course-topbar-sublist-item" href="https://www.coursera.org/about/team" target="_new" data-if-linkable="add-referrer">Team</a>
+        <a class="course-topbar-sublist-item" href="https://www.coursera.org/about/contact" target="_new" data-if-linkable="add-referrer">Contact Us</a>
+        <a class="course-topbar-sublist-item" href="https://www.coursera.org/about/" target="_new" data-if-linkable="add-referrer">About Us</a>
+    </div>
+
+    <div id="course-topbar-my" class="course-topbar-sublist">
+        <a class="course-topbar-sublist-item" href="https://www.coursera.org/" target="_new">Courses</a>
+        <a class="course-topbar-sublist-item" href="https://www.coursera.org/account/profile" target="_new">Profile</a>
+        <a class="course-topbar-sublist-item" href="https://www.coursera.org/account/records" target="_new">Course Records</a>
+        <a class="course-topbar-sublist-item" href="https://www.coursera.org/account/settings" target="_new">Settings</a>
+        <a class="course-topbar-sublist-item" href="https://class.coursera.org/matrix-001/class/preferences">Course Preferences</a>
+        <a class="course-topbar-sublist-item" href="https://class.coursera.org/matrix-001/auth/logout">Sign Out</a>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+<style type="text/css">
+ 
+
+
+</style>
+<div class="course-topbanner-wrapper">
+  <div class="course-topbanner">
+    <div class="course-topbanner-university-logo">
+      <a href="https://www.coursera.org/brown" class="coursera-university-color" target="_blank" data-if-linkable="add-referrer" title="https://www.coursera.org/brown">
+        <img src="./Wiki - Errata   Coding the Matrix  Linear Algebra through Computer Science Applications_files/university_logo" alt="brown">
+      </a>
+    </div>
+
+    
+    <h1 class="course-topbanner-header">
+      <a class="course-topbanner-name coursera-university-color" href="https://class.coursera.org/matrix-001/class/index" data-if-linkable="modal-lock">
+        Coding the Matrix: Linear Algebra through Computer Science Applications      </a>
+      <br>
+      <span class="course-topbanner-instructor" style="">
+        by  Philip  Klein      </span>
+    </h1>
+
+  </div>
+</div>
+
+        <div class="container-fluid" style="position:relative;">
+        <div class="row-fluid">
+            <div id="course-page-sidebar" role="navigation">
+                <div class="course-navbar-container">
+	<a href="https://class.coursera.org/matrix-001/class/index">
+	<img src="./Wiki - Errata   Coding the Matrix  Linear Algebra through Computer Science Applications_files/logo" style="width: 205px;height: 116px;margin: -15px 0px 8px 1px; box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05);" alt="Course Home Page">
+	</a>
+
+
+<h2 class="hidden">Side Navigation Bar</h2>
+<ul class="course-navbar-list">
+		
+	<li class="course-navbar-item">
+								<a href="https://class.coursera.org/matrix-001/class/index" data-if-linkable="modal-lock,gray,lock-icon" class="coursera-university-color">
+				
+				Announcements							</a>
+						</li>
+	
+		
+	<li class="course-navbar-item">
+								<a href="https://class.coursera.org/matrix-001/wiki/view?page=overview" data-if-linkable="modal-lock,gray,lock-icon" class="coursera-university-color">
+				
+				Course Overview							</a>
+						</li>
+	
+		
+	<li class="course-navbar-item">
+								<a href="https://class.coursera.org/matrix-001/wiki/view?page=syllabus" data-if-linkable="modal-lock,gray,lock-icon" class="coursera-university-color">
+				
+				Syllabus							</a>
+						</li>
+	
+		
+	<li class="course-navbar-item">
+								<a href="https://class.coursera.org/matrix-001/wiki/view?page=faq" data-if-linkable="modal-lock,gray,lock-icon" class="coursera-university-color">
+				
+				FAQ							</a>
+						</li>
+	
+		
+	<li class="course-navbar-item">
+								<a href="https://class.coursera.org/matrix-001/wiki/view?page=software-environment" data-if-linkable="modal-lock,gray,lock-icon" class="coursera-university-color">
+				
+				Software Environment							</a>
+						</li>
+	
+		
+	<li class="course-navbar-item">
+								</li>
+	
+		
+	<li class="course-navbar-item">
+								<a href="https://class.coursera.org/matrix-001/lecture/index" data-if-linkable="modal-lock,gray,lock-icon" class="coursera-university-color">
+				
+				Video Lectures							</a>
+						</li>
+	
+		
+	<li class="course-navbar-item">
+								<a href="https://class.coursera.org/matrix-001/assignment/index" data-if-linkable="modal-lock,gray,lock-icon" class="coursera-university-color">
+				
+				Programming Assignments							</a>
+						</li>
+	
+		
+	<li class="course-navbar-item">
+								<a href="http://resources.codingthematrix.com/" target="_blank" data-if-linkable="modal-lock,gray,lock-icon" class="coursera-university-color">
+				
+				Code &amp; Data Resources				<span class="icon-share"></span>			</a>
+						</li>
+	
+		
+	<li class="course-navbar-item">
+								<a href="https://class.coursera.org/matrix-001/forum/index" data-if-linkable="modal-lock,gray,lock-icon" class="coursera-university-color">
+				
+				Discussion Forums							</a>
+						</li>
+	
+		
+	<li class="course-navbar-item">
+								<a href="https://class.coursera.org/matrix-001/wiki/view?page=reflections" data-if-linkable="modal-lock,gray,lock-icon" class="coursera-university-color">
+				
+				Reflections							</a>
+						</li>
+	
+		
+	<li class="course-navbar-item active">
+								<a href="./Wiki - Errata   Coding the Matrix  Linear Algebra through Computer Science Applications_files/Wiki - Errata   Coding the Matrix  Linear Algebra through Computer Science Applications.htm" data-if-linkable="modal-lock,gray,lock-icon" class="coursera-university-color">
+				
+				Errata							<span class="course-navbar-selected-marker">(selected)</span></a>
+						</li>
+	
+		
+	<li class="course-navbar-item">
+								</li>
+	
+		
+	<li class="course-navbar-item">
+								<a href="https://class.coursera.org/matrix-001/wiki/view?page=aboutus" data-if-linkable="modal-lock,gray,lock-icon" class="coursera-university-color">
+				
+				About Us							</a>
+						</li>
+	
+		
+	<li class="course-navbar-item">
+								<a href="https://class.coursera.org/matrix-001/quiz/index?quiz_type=survey" data-if-linkable="modal-lock,gray,lock-icon" class="coursera-university-color">
+				
+				Surveys 							</a>
+						</li>
+	
+	
+		<li class="course-navbar-item">
+		<a href="https://share.coursera.org/wiki/index.php/matrix:Main" target="_blank" class="coursera-university-color" title="Open course wiki in new window">
+			Course Wiki
+			<span class="icon-share"></span>
+		</a>
+	</li>
+		
+		<li class="course-navbar-item">
+		<a href="http://www.meetup.com/Coursera/" target="_blank" class="coursera-university-color">
+			Join a Meetup
+			<span class="icon-share"></span>
+		</a>
+	</li>
+	
+    </ul>
+
+<ul style="list-style-type:none;margin-left: 10px;">
+  <li><a href="http://help.coursera.org/" class="coursera-university-color" target="_blank" title="Open help articles in new window"><i class="icon-question-sign"></i> Help Articles</a></li>
+</ul>
+
+<ul style="list-style-type:none;margin-left: 10px;">
+	
+</ul>
+
+</div>
+            </div>
+            <div id="course-page-content" role="main">
+                                
+
+<h2 class="course-page-header">
+    Errata    <a class="coursera-reporter-link" title="Click here if you&#39;re experiencing technical problems or found errors in the course materials." target="_blank" href="https://class.coursera.org/matrix-001/help/pages?url=https%3A%2F%2Fclass.coursera.org%2Fmatrix-001%2Fwiki%2Fview%3Fpage%3Derrata">
+      Help
+    </a>
+    <a data-coursera-admin-helpwidget-link="" rel="help" href="https://class.coursera.org/mooc/help/pages/setup" title="Course Page Setup" style="display:none;">Learn more.</a>
+</h2>
+
+<div id="internal_html_page_content">
+
+<h4>Gaussian Elimination</h4>
+<br>In the Integer Factoring Lab, the assignment says
+<br>&nbsp; &nbsp;&nbsp;<span style="color: rgb(51, 51, 51);">Try out your procedure on N = 2419 by calling find candidates(N,&nbsp;</span><b style="box-sizing: border-box; color: rgb(51, 51, 51);">primeset</b><span style="color: rgb(51, 51, 51);">(32))</span>
+<span style="color: rgb(51, 51, 51);">&nbsp;
+    <br>but should say&nbsp;
+    <br></span><span style="color: rgb(51, 51, 51);">&nbsp; &nbsp; Try out your procedure on N = 2419 by calling find candidates(N,&nbsp;</span><b style="box-sizing: border-box; color: rgb(51, 51, 51);">primes</b><span style="color: rgb(51, 51, 51);">(32)).<br></span>
+<br>Also, in the lab stencil, the spec for the procedure find_candidates(N, primeset) states that the output should be a list but the output should be a tuple.
+<br><h4><br></h4>
+<h4>Dimension</h4>In the video lecture <i>Dimension: Dual representation of vector spaces</i>, I give a definition for the <i>dual</i> of a vector space. &nbsp;I should have called that the <i>annihilator</i> of a vector space; the dual of a vector space is something different.
+<br>&nbsp;
+<br>In the Perspective Lab,
+<br><ul>
+<li>In Section 2, I say that <span class="MathJax_Preview"></span><span class="MathJax" id="MathJax-Element-1-Frame" role="textbox" aria-readonly="true" style=""><nobr><span class="math" id="MathJax-Span-1"><span style="display: inline-block; position: relative; width: 17px; height: 0px; font-size: 132%;"><span style="position: absolute; clip: rect(28.8px 18480px 46.1px -8.4px); top: -40px; left: 0px;"><span class="mrow" id="MathJax-Span-2"><span class="msubsup" id="MathJax-Span-3"><span style="display: inline-block; position: relative; width: 16.4px; height: 0px;"><span style="position: absolute; clip: rect(28.8px 18480px 43.2px -8.4px); top: -40px; left: 0px;"><span class="mi" id="MathJax-Span-4" style="font-family: MathJax_Math; font-style: italic;">c</span><span style="display: inline-block; width: 0px; height: 40px;"></span></span><span style="position: absolute; top: -37.2px; left: 8px;"><span class="mn" id="MathJax-Span-5" style="font-size: 70.7%; font-family: MathJax_Main;">3</span><span style="display: inline-block; width: 0px; height: 40px;"></span></span></span></span></span><span style="display: inline-block; width: 0px; height: 40px;"></span></span></span><span style="border-left-width: 0px; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 13.2px; vertical-align: -4.1px;"></span></span></nobr></span><script type="math/tex" id="MathJax-Element-1">c_3</script> goes to the top-right corner of the whiteboard but I mean the top-left corner.</li>
+    <li>In the top-view diagram in Section 4, I use <span class="MathJax_Preview"></span><span class="MathJax" id="MathJax-Element-2-Frame" role="textbox" aria-readonly="true" style=""><nobr><span class="math" id="MathJax-Span-6"><span style="display: inline-block; position: relative; width: 17px; height: 0px; font-size: 132%;"><span style="position: absolute; clip: rect(24.2px 18480px 45.8px -8.3px); top: -40px; left: 0px;"><span class="mrow" id="MathJax-Span-7"><span class="msubsup" id="MathJax-Span-8"><span style="display: inline-block; position: relative; width: 16.4px; height: 0px;"><span style="position: absolute; clip: rect(24.2px 18480px 43.2px -8.3px); top: -40px; left: 0px;"><span class="mi" id="MathJax-Span-9" style="font-family: MathJax_Math; font-style: italic;">b</span><span style="display: inline-block; width: 0px; height: 40px;"></span></span><span style="position: absolute; top: -37.2px; left: 8px;"><span class="mn" id="MathJax-Span-10" style="font-size: 70.7%; font-family: MathJax_Main;">1</span><span style="display: inline-block; width: 0px; height: 40px;"></span></span></span></span></span><span style="display: inline-block; width: 0px; height: 40px;"></span></span></span><span style="border-left-width: 0px; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 17.6px; vertical-align: -3.8px;"></span></span></nobr></span><script type="math/tex" id="MathJax-Element-2">b_1</script> and <span class="MathJax_Preview"></span><span class="MathJax" id="MathJax-Element-3-Frame" role="textbox" aria-readonly="true" style=""><nobr><span class="math" id="MathJax-Span-11"><span style="display: inline-block; position: relative; width: 17px; height: 0px; font-size: 132%;"><span style="position: absolute; clip: rect(24.2px 18480px 46.1px -8.3px); top: -40px; left: 0px;"><span class="mrow" id="MathJax-Span-12"><span class="msubsup" id="MathJax-Span-13"><span style="display: inline-block; position: relative; width: 16.4px; height: 0px;"><span style="position: absolute; clip: rect(24.2px 18480px 43.2px -8.3px); top: -40px; left: 0px;"><span class="mi" id="MathJax-Span-14" style="font-family: MathJax_Math; font-style: italic;">b</span><span style="display: inline-block; width: 0px; height: 40px;"></span></span><span style="position: absolute; top: -37.2px; left: 8px;"><span class="mn" id="MathJax-Span-15" style="font-size: 70.7%; font-family: MathJax_Main;">3</span><span style="display: inline-block; width: 0px; height: 40px;"></span></span></span></span></span><span style="display: inline-block; width: 0px; height: 40px;"></span></span></span><span style="border-left-width: 0px; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 17.9px; vertical-align: -4.1px;"></span></span></nobr></span><script type="math/tex" id="MathJax-Element-3">b_3</script> but I mean <span class="MathJax_Preview"></span><span class="MathJax" id="MathJax-Element-4-Frame" role="textbox" aria-readonly="true" style=""><nobr><span class="math" id="MathJax-Span-16"><span style="display: inline-block; position: relative; width: 17px; height: 0px; font-size: 132%;"><span style="position: absolute; clip: rect(28.8px 18480px 45.8px -8.4px); top: -40px; left: 0px;"><span class="mrow" id="MathJax-Span-17"><span class="msubsup" id="MathJax-Span-18"><span style="display: inline-block; position: relative; width: 16.4px; height: 0px;"><span style="position: absolute; clip: rect(28.8px 18480px 43.2px -8.4px); top: -40px; left: 0px;"><span class="mi" id="MathJax-Span-19" style="font-family: MathJax_Math; font-style: italic;">c</span><span style="display: inline-block; width: 0px; height: 40px;"></span></span><span style="position: absolute; top: -37.2px; left: 8px;"><span class="mn" id="MathJax-Span-20" style="font-size: 70.7%; font-family: MathJax_Main;">1</span><span style="display: inline-block; width: 0px; height: 40px;"></span></span></span></span></span><span style="display: inline-block; width: 0px; height: 40px;"></span></span></span><span style="border-left-width: 0px; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 12.9px; vertical-align: -3.8px;"></span></span></nobr></span><script type="math/tex" id="MathJax-Element-4">c_1</script> and <span class="MathJax_Preview"></span><span class="MathJax" id="MathJax-Element-5-Frame" role="textbox" aria-readonly="true" style=""><nobr><span class="math" id="MathJax-Span-21"><span style="display: inline-block; position: relative; width: 17px; height: 0px; font-size: 132%;"><span style="position: absolute; clip: rect(28.8px 18480px 46.1px -8.4px); top: -40px; left: 0px;"><span class="mrow" id="MathJax-Span-22"><span class="msubsup" id="MathJax-Span-23"><span style="display: inline-block; position: relative; width: 16.4px; height: 0px;"><span style="position: absolute; clip: rect(28.8px 18480px 43.2px -8.4px); top: -40px; left: 0px;"><span class="mi" id="MathJax-Span-24" style="font-family: MathJax_Math; font-style: italic;">c</span><span style="display: inline-block; width: 0px; height: 40px;"></span></span><span style="position: absolute; top: -37.2px; left: 8px;"><span class="mn" id="MathJax-Span-25" style="font-size: 70.7%; font-family: MathJax_Main;">3</span><span style="display: inline-block; width: 0px; height: 40px;"></span></span></span></span></span><span style="display: inline-block; width: 0px; height: 40px;"></span></span></span><span style="border-left-width: 0px; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 13.2px; vertical-align: -4.1px;"></span></span></nobr></span><script type="math/tex" id="MathJax-Element-5">c_3</script>.</li>
+    <li>In Section 5, we write <span class="MathJax_Preview"></span><span class="MathJax" id="MathJax-Element-6-Frame" role="textbox" aria-readonly="true" style=""><nobr><span class="math" id="MathJax-Span-26"><span style="display: inline-block; position: relative; width: 87px; height: 0px; font-size: 132%;"><span style="position: absolute; clip: rect(20.1px 18480px 43.4px -8.4px); top: -40px; left: 0px;"><span class="mrow" id="MathJax-Span-27"><span class="mi" id="MathJax-Span-28" style="font-family: MathJax_Math; font-style: italic;">H<span style="display: inline-block; overflow: hidden; height: 1px; width: 1.1px;"></span></span><span class="mo" id="MathJax-Span-29" style="font-family: MathJax_Main; padding-left: 5.1px;">=</span><span class="msubsup" id="MathJax-Span-30" style="padding-left: 5.1px;"><span style="display: inline-block; position: relative; width: 32.4px; height: 0px;"><span style="position: absolute; clip: rect(23.8px 18480px 43px -8.4px); top: -40px; left: 0px;"><span class="mi" id="MathJax-Span-31" style="font-family: MathJax_Math; font-style: italic;">A</span><span style="display: inline-block; width: 0px; height: 40px;"></span></span><span style="position: absolute; top: -48.2px; left: 14px;"><span class="texatom" id="MathJax-Span-32"><span class="mrow" id="MathJax-Span-33"><span class="mo" id="MathJax-Span-34" style="font-size: 70.7%; font-family: MathJax_Main;">−</span><span class="mn" id="MathJax-Span-35" style="font-size: 70.7%; font-family: MathJax_Main;">1</span></span></span><span style="display: inline-block; width: 0px; height: 40px;"></span></span></span></span><span class="mi" id="MathJax-Span-36" style="font-family: MathJax_Math; font-style: italic;">C<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.8px;"></span></span></span><span style="display: inline-block; width: 0px; height: 40px;"></span></span></span><span style="border-left-width: 0px; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 19.3px; vertical-align: -1.4px;"></span></span></nobr></span><script type="math/tex" id="MathJax-Element-6">H=A^{-1}C</script> instead of <span class="MathJax_Preview"></span><span class="MathJax" id="MathJax-Element-7-Frame" role="textbox" aria-readonly="true" style=""><nobr><span class="math" id="MathJax-Span-37"><span style="display: inline-block; position: relative; width: 88px; height: 0px; font-size: 132%;"><span style="position: absolute; clip: rect(20.3px 18480px 43.4px -8.4px); top: -40px; left: 0px;"><span class="mrow" id="MathJax-Span-38"><span class="mi" id="MathJax-Span-39" style="font-family: MathJax_Math; font-style: italic;">H<span style="display: inline-block; overflow: hidden; height: 1px; width: 1.1px;"></span></span><span class="mo" id="MathJax-Span-40" style="font-family: MathJax_Main; padding-left: 5.1px;">=</span><span class="msubsup" id="MathJax-Span-41" style="padding-left: 5.1px;"><span style="display: inline-block; position: relative; width: 33.6px; height: 0px;"><span style="position: absolute; clip: rect(24px 18480px 43.4px -8.1px); top: -40px; left: 0px;"><span class="mi" id="MathJax-Span-42" style="font-family: MathJax_Math; font-style: italic;">C<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.8px;"></span></span><span style="display: inline-block; width: 0px; height: 40px;"></span></span><span style="position: absolute; top: -48px; left: 15.2px;"><span class="texatom" id="MathJax-Span-43"><span class="mrow" id="MathJax-Span-44"><span class="mo" id="MathJax-Span-45" style="font-size: 70.7%; font-family: MathJax_Main;">−</span><span class="mn" id="MathJax-Span-46" style="font-size: 70.7%; font-family: MathJax_Main;">1</span></span></span><span style="display: inline-block; width: 0px; height: 40px;"></span></span></span></span><span class="mi" id="MathJax-Span-47" style="font-family: MathJax_Math; font-style: italic;">A</span></span><span style="display: inline-block; width: 0px; height: 40px;"></span></span></span><span style="border-left-width: 0px; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 19.1px; vertical-align: -1.4px;"></span></span></nobr></span><script type="math/tex" id="MathJax-Element-7">H=C^{-1}A</script>.&nbsp;</li>
+</ul>
+<h4>The Matrix</h4>In the video lecture <i>What is a Matrix?</i>, the solution to the&nbsp;<i>transpose </i>quiz has <code>.F</code> where it should have <code>.f</code><br><br>In the video lecture <i>The Matrix: Matrix Inverse</i>, I stated as a proposition: <br>&nbsp; &nbsp; &nbsp; &nbsp; "Suppose the matrix product <i>AB</i> is defined. &nbsp;Then <i>AB</i> is an invertible matrix if and only if both <i>A</i> and <i>B</i> are invertible matrices."<br>Only one direction of this statement is true. &nbsp;It should read: <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;"Suppose the matrix product AB is defined. &nbsp;If <i>A</i> and <i>B</i> are invertible then <i>AB</i> is invertible."<br><h4>The Vector Space: Linear Combinations</h4>In the video lecture, the solution to the <i>Lights Out</i> problem should be <span class="MathJax_Preview"></span><span class="MathJax" id="MathJax-Element-8-Frame" role="textbox" aria-readonly="true" style=""><nobr><span class="math" id="MathJax-Span-48"><span style="display: inline-block; position: relative; width: 238px; height: 0px; font-size: 132%;"><span style="position: absolute; clip: rect(24.7px 18480px 46.6px -8.4px); top: -40px; left: 0px;"><span class="mrow" id="MathJax-Span-49"><span class="msubsup" id="MathJax-Span-50"><span style="display: inline-block; position: relative; width: 20.4px; height: 0px;"><span style="position: absolute; clip: rect(28.8px 18480px 43.2px -8.4px); top: -40px; left: 0px;"><span class="mi" id="MathJax-Span-51" style="font-family: MathJax_Math; font-style: italic;">α</span><span style="display: inline-block; width: 0px; height: 40px;"></span></span><span style="position: absolute; top: -37.2px; left: 12px;"><span class="mn" id="MathJax-Span-52" style="font-size: 70.7%; font-family: MathJax_Main;">1</span><span style="display: inline-block; width: 0px; height: 40px;"></span></span></span></span><span class="mo" id="MathJax-Span-53" style="font-family: MathJax_Main; padding-left: 5.1px;">=</span><span class="mn" id="MathJax-Span-54" style="font-family: MathJax_Main; padding-left: 5.1px;">0</span><span class="mo" id="MathJax-Span-55" style="font-family: MathJax_Main;">,</span><span class="msubsup" id="MathJax-Span-56" style="padding-left: 3.1px;"><span style="display: inline-block; position: relative; width: 20.4px; height: 0px;"><span style="position: absolute; clip: rect(28.8px 18480px 43.2px -8.4px); top: -40px; left: 0px;"><span class="mi" id="MathJax-Span-57" style="font-family: MathJax_Math; font-style: italic;">α</span><span style="display: inline-block; width: 0px; height: 40px;"></span></span><span style="position: absolute; top: -37.2px; left: 12px;"><span class="mn" id="MathJax-Span-58" style="font-size: 70.7%; font-family: MathJax_Main;">2</span><span style="display: inline-block; width: 0px; height: 40px;"></span></span></span></span><span class="mo" id="MathJax-Span-59" style="font-family: MathJax_Main; padding-left: 5.1px;">=</span><span class="mn" id="MathJax-Span-60" style="font-family: MathJax_Main; padding-left: 5.1px;">1</span><span class="mo" id="MathJax-Span-61" style="font-family: MathJax_Main;">,</span><span class="msubsup" id="MathJax-Span-62" style="padding-left: 3.1px;"><span style="display: inline-block; position: relative; width: 20.4px; height: 0px;"><span style="position: absolute; clip: rect(28.8px 18480px 43.2px -8.4px); top: -40px; left: 0px;"><span class="mi" id="MathJax-Span-63" style="font-family: MathJax_Math; font-style: italic;">α</span><span style="display: inline-block; width: 0px; height: 40px;"></span></span><span style="position: absolute; top: -37.2px; left: 12px;"><span class="mn" id="MathJax-Span-64" style="font-size: 70.7%; font-family: MathJax_Main;">3</span><span style="display: inline-block; width: 0px; height: 40px;"></span></span></span></span><span class="mo" id="MathJax-Span-65" style="font-family: MathJax_Main; padding-left: 5.1px;">=</span><span class="mn" id="MathJax-Span-66" style="font-family: MathJax_Main; padding-left: 5.1px;">0</span><span class="mo" id="MathJax-Span-67" style="font-family: MathJax_Main;">,</span><span class="msubsup" id="MathJax-Span-68" style="padding-left: 3.1px;"><span style="display: inline-block; position: relative; width: 20.4px; height: 0px;"><span style="position: absolute; clip: rect(28.8px 18480px 43.2px -8.4px); top: -40px; left: 0px;"><span class="mi" id="MathJax-Span-69" style="font-family: MathJax_Math; font-style: italic;">α</span><span style="display: inline-block; width: 0px; height: 40px;"></span></span><span style="position: absolute; top: -37.2px; left: 12px;"><span class="mn" id="MathJax-Span-70" style="font-size: 70.7%; font-family: MathJax_Main;">4</span><span style="display: inline-block; width: 0px; height: 40px;"></span></span></span></span><span class="mo" id="MathJax-Span-71" style="font-family: MathJax_Main; padding-left: 5.1px;">=</span><span class="mn" id="MathJax-Span-72" style="font-family: MathJax_Main; padding-left: 5.1px;">1</span></span><span style="display: inline-block; width: 0px; height: 40px;"></span></span></span><span style="border-left-width: 0px; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 17.9px; vertical-align: -4.6px;"></span></span></nobr></span><script type="math/tex" id="MathJax-Element-8">\alpha_1=0, \alpha_2=1, \alpha_3=0, \alpha_4=1</script>.
+<h4>Politics</h4>
+<p>Versions of politics_lab.zip downloaded before July 9 at 11:40pm EDT have an erroneous newline in the <code>create_voting_dict()['Clinton']</code> example. To make this doctest pass, please remove the newline in the array, or just download the latest ZIP
+    file if you haven't started the lab yet.</p>
+<h4>Vec class</h4>
+<p>For a few hours after release on Monday, July 8, there was a bug in our grader for the equality test on Vecs. It's fixed now.</p>
+<h4>Python Lab</h4>
+<p>Tasks in Python Lab that require you to write a comprehension won't work if the comprehension is split over multiple lines. Our apologies for that! Please put each comprehension on a single line of the stencil file.</p>
+<h4>HW0, preliminary version</h4>
+<p>Some students who went to the course web site before the official launch downloaded a version of hw0.zip that was preliminary. You would probably notice this: the stencil file hw0.py has fifteen problems instead of ten. If this happened to you, my apologies!
+    Please rename your current hw0.py, download the official version of hw0.zip, and move or copy the files it contains into your matrix
+    <br>folder. Then copy your answers from the old, renamed hw0.py file into the new one, and submit your solutions in the usual way.</p>
+<h4>The Function</h4>
+<p>On a slide titled 'The function', the example at the bottom of the slide might be misleading. I should have included more tuples such as ((1,1,),1), ((1,2,)1),((2,1),2), and ((3,1),3). I just listed some examples of tuples in this infinite set (using
+    "..." to indicate there were more) but this might have confused some people.</p>
+<p>In slides titled 'The function' and 'The function: Composition', the diagrams showing the Caesar cypher mistakenly showed Z mapping to B. the letter Z should map to C, as indicated by the text on the slide 'The function'.</p>
+<p>In a slide titled 'Set terminology and notation: Cartesian product', there was a spurious (3, clubs) in the set.</p>
+<h4>Course Map</h4>
+<pre><code>If MA=B where M is invertible 
+then Row A = Col A</code></pre>
+<p>should be replaced with</p>
+<pre><code>If MA=B where M is invertible 
+then Row A = Row B</code></pre>
+<p>We've updated the map on the course web site.</p>
+</div>
+<hr>
+<div>
+    <div style="float:left">
+    	    	    </div>
+    <div style="float:right;text-align:right;font-size:10px;">
+    	Created Tue  2 Jul 2013  7:41 AM PDT (UTC -0700)<br>
+    	Last Modified Sun  1 Sep 2013 12:33 PM PDT (UTC -0700)    </div>
+</div>
+
+            </div>
+        </div>
+    </div>
+        
+    
+    <script type="text/javascript" async="" src="./Wiki - Errata   Coding the Matrix  Linear Algebra through Computer Science Applications_files/204.min.js"></script><script type="text/javascript" async="" src="./Wiki - Errata   Coding the Matrix  Linear Algebra through Computer Science Applications_files/ga.js"></script><script src="./Wiki - Errata   Coding the Matrix  Linear Algebra through Computer Science Applications_files/spark.js"></script>
+
+<script type="text/javascript">
+    // SET UP THE MULTITRACKER
+        window.logger = window.Log({level:"error"});
+        var parts = location.host.split(".");
+    while(parts.length > 2) { parts.shift(); }
+
+    window.multitracker = window.MultiTracker({logger:window.logger});
+    window.multitracker.register('204', window._204 = window._204 || []);
+    window.multitracker.register('ga', window._gaq = window._gaq || [], 'google');
+
+    // SET UP GA and 204
+    window._gaq.push(['_setAccount', 'UA-28377374-1']);
+    window._gaq.push(['_setDomainName', 'coursera.org']);
+    window._gaq.push(['_setAllowLinker', true]);  
+    window._gaq.push(['_trackPageview']);
+    
+    // configure 204 with the following settings
+    window._204.push(["client", "spark"]);
+    window._204.push(["user", 3341979]);
+    window._204.push(["domain", "." + parts.join(".")]);
+
+    // set off the first event
+    window._204.push({key:"pageview", val:{}});
+
+    // override our multitracker queues with the ga queue when it is ready
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    
+      ga.onload = ga.onreadystatechange = function() {
+          ga.onreadystatechange = ga.onload = null;
+          window.multitracker.get('ga').queue = window._gaq;
+      };
+    })();
+
+    // override our multitracker queues with the 204 queue when it is ready
+    (function() {
+      var a = document.createElement('script'); a.type = 'text/javascript'; a.async = true;
+      a.src = 'https://eventing.coursera.org/204.min.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(a, s);
+      a.onload = a.onreadystatechange = function() {
+          a.onreadystatechange = a.onload = null;
+          window.multitracker.get('204').queue = window._204;
+      };
+    })();
+</script>
+
+<script>
+  // Set up shared AB testing object
+  (function() {
+    window.ab = {};
+
+    // we want to share the 204 session cookie with the AB session cookie...
+    var sessionId = AB.makeSession("__204u", {expires:356, domain:"." + location.host});
+        var debug = false;
+    
+    window.ab.user = window.AB(3341979, "user", {debug:debug, tracker:window.multitracker, logger:window.logger});
+    window.ab.session = window.AB(sessionId, "session", {debug:debug, tracker:window.multitracker, logger:window.logger});
+
+    if(window.CourseraABExperiments.user) {
+        window.ab.user.addExperiments(window.CourseraABExperiments.user);
+        window.ab.user.runExperimentsOn("body");
+    }
+
+    if(window.CourseraABExperiments.session) {
+        window.ab.session.addExperiments(window.CourseraABExperiments.session);
+        window.ab.session.runExperimentsOn("body");
+    }
+  })();
+</script>
+
+
+    <script>
+      // Set up help widget
+      (function() {
+        $("[data-helpwidget]").each(function() {
+            window.HelpWidget(this, {tracker: window.multitracker});
+        });
+       })();
+
+        $("[data-readme]").each(function() {
+            window.ReadMe(this);
+        });
+    </script>
+
+    <script src="./Wiki - Errata   Coding the Matrix  Linear Algebra through Computer Science Applications_files/modal_focus.js" type="text/javascript"></script>
+    <script src="./Wiki - Errata   Coding the Matrix  Linear Algebra through Computer Science Applications_files/get_query_parameters.js" type="text/javascript"></script>
+    <script src="./Wiki - Errata   Coding the Matrix  Linear Algebra through Computer Science Applications_files/signature_track.js" type="text/javascript"></script>
+    <script src="./Wiki - Errata   Coding the Matrix  Linear Algebra through Computer Science Applications_files/item_list.js" type="text/javascript"></script>
+    <script src="./Wiki - Errata   Coding the Matrix  Linear Algebra through Computer Science Applications_files/navbar.js" type="text/javascript"></script>
+
+    
+    <script>
+     // Set up help widget
+      (function() {
+        $("[data-helpwidget]").each(function() {
+            window.HelpWidget(this, {tracker: window.multitracker});
+        });
+       })();
+    </script>
+
+    
+    <script type="text/x-mathjax-config;executed=true">
+MathJax.Hub.Config({
+  config: ["MMLorHTML.js"],
+  
+  styleSheets: [],
+  styles: {},
+
+  jax: ["input/TeX"],
+  
+  extensions: ["tex2jax.js"],
+
+  preJax: null,
+  postJax: null,
+
+  preRemoveClass: "MathJax_Preview",
+
+  showProcessingMessages: true,
+
+  messageStyle: "none",
+  
+  displayAlign: "center",
+  displayIndent: "0em",
+  
+  delayStartupUntil: "none",
+
+  skipStartupTypeset: false,
+  
+  elements: [],
+  
+  tex2jax: {
+	    inlineMath: [
+	                 ['$$','$$'],      // uncomment this for standard TeX math delimiters
+	                 ['\\(','\\)']
+	                 ],
+
+	                 displayMath: [
+	                 ['\\[','\\]']
+	                 ],
+
+    skipTags: ["script","noscript","style","textarea","pre","code"],
+    ignoreClass: "tex2jax_ignore",
+    processClass: "tex2jax_process",
+    processEscapes: false,
+    processEnvironments: true,
+    preview: "TeX"
+    
+  },
+  
+  mml2jax: {
+    preview: "alttext"
+    
+  },
+  
+  jsMath2jax: {
+    preview: "TeX"
+    
+  },
+
+  TeX: {
+    TagSide: "right",
+    TagIndent: ".8em",
+    MultLineWidth: "85%",
+    Macros: {},
+
+    extensions: ["AMSmath.js", "AMSsymbols.js"]
+    
+  },
+
+  //============================================================================
+  //
+  //  These parameters control the MathML inupt jax.
+  //
+  MathML: {
+    //
+    //  This specifies whether to use TeX spacing or MathML spacing when the
+    //  HTML-CSS output jax is used.
+    //
+    useMathMLspacing: false
+  },
+  
+  //============================================================================
+  //
+  //  These parameters control the HTML-CSS output jax.
+  //
+  "HTML-CSS": {
+    
+    scale: 100,
+    
+    availableFonts: ["STIX","TeX"],
+    
+    preferredFont: "TeX",
+    
+    webFont: "TeX",
+    
+    imageFont: "TeX",
+    
+    undefinedFamily: "STIXGeneral,'Arial Unicode MS',serif",
+      
+    showMathMenu: true,
+
+    styles: {},
+    
+    tooltip: {
+      delayPost: 600,          // milliseconds delay before tooltip is posted after mouseover
+      delayClear: 600,         // milliseconds delay before tooltip is cleared after mouseout
+      offsetX: 10, offsetY: 5  // pixels to offset tooltip from mouse position
+    }
+  },
+  
+  //============================================================================
+  //
+  //  These parameters control the NativeMML output jax.
+  //
+  NativeMML: {
+
+    scale: 100,
+
+    showMathMenu: true,
+    showMathMenuMSIE: true,
+
+    styles: {}
+  },
+  
+  MathMenu: {
+    delay: 400,
+    
+    helpURL: "http://www.mathjax.org/help/user/",
+
+    showRenderer: true,
+    showFontMenu: false,
+    showContext:  false,
+
+    windowSettings: {
+      status: "no", toolbar: "no", locationbar: "no", menubar: "no",
+      directories: "no", personalbar: "no", resizable: "yes", scrollbars: "yes",
+      width: 100, height: 50
+    },
+    
+    styles: {}
+    
+  },
+
+  MMLorHTML: {
+    prefer: {
+      MSIE:    "MML",
+      Firefox: "MML",
+      Opera:   "HTML",
+      other:   "HTML"
+    }
+  }
+});
+</script>
+<script type="text/javascript">
+(function () {
+
+  function loadMathJax() {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://duqnjvq4jwr55.cloudfront.net/2.1/MathJax.js";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  }
+
+  window.loadOrRefreshMathJax = function(domId) {
+    if (window.MathJax) {
+      if (domId) {
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub, domId]);
+      } else {
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+      }
+    } else {
+      loadMathJax();
+    }
+  }
+})();
+</script>
+    <script type="text/javascript">
+        var site_base_url = "https:\/\/www.coursera.org\/";
+        var site_static_asset_url = "https:\/\/dt5zaw6a98blc.cloudfront.net\/site-static\/";
+        var spark_class_short_name = "matrix";
+        var spark_class_id = 970260;
+        var spark_class_url = "\/matrix-001";
+        var spark_signature_url = "https:\/\/class.coursera.org\/matrix-001\/signature\/";
+
+        var course_strings_name = "Coding the Matrix: Linear Algebra through Computer Science Applications";
+        var student_full_name = "Rohin Bhargava";
+    </script>
+
+    
+<script type="text/javascript">$(function() { loadOrRefreshMathJax();})</script>
+<script src="./Wiki - Errata   Coding the Matrix  Linear Algebra through Computer Science Applications_files/textbook_wiki.js"></script>
+
+
+
+
+<div id="MathJax_Font_Test" style="position: absolute; visibility: hidden; top: 0px; left: 0px; width: auto; padding: 0px; border: 0px; margin: 0px; white-space: nowrap; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; font-size: 40px; font-weight: normal; font-style: normal; font-family: MathJax_Main, sans-serif;"></div></body></html>
